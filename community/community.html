@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mom Forum | First Time Mama</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1><a href="/index.html">First Time Mama</a></h1>
+  <p>Connect with other moms. Ask, share, support.</p>
+</header>
+
+<nav>
+  <a href="/pregnancy/pregnancy.html">Pregnancy</a>
+  <a href="/newborn/newborn.html">Newborn Care</a>
+  <a href="/community/community.html">Community</a>
+  <a href="/blog/blog.html">Blog</a>
+  <a href="/contact/contact.html">Contact</a>
+  <a href="/about/about.html">About</a>
+</nav>
+
+<div class="container">
+
+  <div class="new-topic">
+    <h2>Start a New Discussion</h2>
+    <input type="text" id="topicTitle" placeholder="Topic title (e.g. Struggling with sleep training)" />
+    <textarea id="topicContent" rows="4" placeholder="Write your question or experience here..."></textarea>
+    <button onclick="postThread()">Post</button>
+  </div>
+
+  <div id="forumThreads">
+    <!-- Example static thread -->
+    <div class="thread">
+      <h3>Any advice on breastfeeding pain?</h3>
+      <p><strong>Posted by:</strong> @newmom_jenny</p>
+      <p>I'm a week postpartum and breastfeeding is so painful. Is this normal? Any tips are appreciated!</p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2025 First Time Mama. All rights reserved.</p>
+</footer>
+
+<script src="index.js">
+</script>
+
+</body>
+</html>
